@@ -40,6 +40,6 @@ jobs:
         run: |
           git add preprocessing/titanic_preprocessing/titanic_preprocessed_train.csv preprocessing/titanic_preprocessing/titanic_preprocessed_test.csv || echo "Nothing to add"
           git diff --cached --quiet && echo "No changes to commit" || (
-            git commit -m "feat(data): auto-update processed datasets"
+            git commit -m "chore(data): auto-update processed datasets"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
           )
