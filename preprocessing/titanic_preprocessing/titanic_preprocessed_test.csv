@@ -151,7 +151,7 @@ Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,Ticket_number,Ticket_item
 2,male,30.0,1,1,26.0,S,250651,NONE
 1,female,23.0,0,1,83.1583,C,11767,NONE
 3,male,27.0,0,0,7.8958,C,349255,NONE
-3,male,60.5,0,0,,S,3701,NONE
+3,male,60.5,0,0,14.4542,S,3701,NONE
 3,female,36.0,0,2,12.1833,S,350405,NONE
 3,male,13.0,4,2,31.3875,S,347077,NONE
 3,male,24.0,0,0,7.55,S,752,S.O./P.P.
