@@ -72,8 +72,8 @@ def main() -> None:
     processed_test_df = preprocess_data(df_test)
 
     # Save processed data
-    train_output_path = preprocessed_dir / "titanic_preprocessed_train.csv"
-    test_output_path = preprocessed_dir / "titanic_preprocessed_test.csv"
+    train_output_path = preprocessed_dir / "preprocessed_train.csv"
+    test_output_path = preprocessed_dir / "preprocessed_test.csv"
 
     processed_train_df.to_csv(train_output_path, index=False)
     processed_test_df.to_csv(test_output_path, index=False)
